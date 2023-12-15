@@ -17,6 +17,8 @@ knn = KNeighborsClassifier(n_neighbors=7)
 
 knn.fit(X_train, y_train) 
 
+print("Results of classification using KNN with k = 7")
+
 # Predict on dataset which model has not seen before and print the predicted output with the classifier accuracy
 predictedList = knn.predict(X_test)
 for i in range(len(X_test)):
