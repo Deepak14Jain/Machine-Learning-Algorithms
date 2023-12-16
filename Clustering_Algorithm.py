@@ -54,6 +54,6 @@ plt.xlabel('Petal Length')
 plt.ylabel('Petal Width')
 
 # Show the plots
-plt.plot()
+plt.show()
 
 print('Observation: The GMM using EM algorithm-based clustering matched the true labels more closely than the Kmeans.')
